@@ -26,9 +26,9 @@ class Settings(BaseSettings):
     PROXY_FILE: str | None = Field(validation_alias='PROXY_FILE', default=None)
     DEVICE_MODELS: list[str] = Field(validation_alias='DEVICE_MODELS', default=[])
     SAVE_WIREGUARD_VARIABLES: bool = Field(validation_alias='SAVE_WIREGUARD_VARIABLES', default=False)
-    DELAY: int = Field(validation_alias='DELAY', default=25)
+    DELAY: int = Field(validation_alias='DELAY', default=120)
     OUTPUT_FILE: str = Field(validation_alias='OUTPUT_FILE', default='output.txt')
-    OUTPUT_FORMAT: str = Field(validation_alias='OUTPUT_FORMAT', default='{key} | {referral_count}')
+    OUTPUT_FORMAT: str = Field(validation_alias='OUTPUT_FORMAT', default='{key} | {referral_count} GB')
     RETRY_COUNT: int = Field(validation_alias='RETRY_COUNT', default=3)
 
 
