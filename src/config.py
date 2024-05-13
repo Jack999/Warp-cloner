@@ -10,16 +10,16 @@ class Settings(BaseSettings):
     BASE_KEYS: list[str] = Field(
         validation_alias='BASE_KEYS',
         default=[
-            'W32Zg5F7-V92mt68f-1dep203B',
-            'ka3E672R-1574KThz-nM40Jh15',
-            'L4or30z8-MA6w1y30-r0GP8f52',
-            '1r2JN79T-b1vm364s-B79N3g4l',
-            '9Z84YMf1-Ci731e5K-743NlOZ0',
-            'X3ZY91n5-S0at385w-170NF2ge',
-            'd9vT20K5-RL6I08W1-0X1zM48S',
-            '3fwe4E78-4ua83qA7-kP061T4t',
-            'm1Jdh478-1h63O5fo-1i8QR07U',
-            '5hD6f0W8-Xz08g43W-w43F1Ug2',
+            'c0XD27y5-5Zb918sJ-o8A7b6M5',
+            'KF37P92V-4y5BF78L-mL38l5j7',
+            '0Tps6J83-ED314Qo8-mjY0B657',
+            '4ph7Nb80-bz165ON3-C40If5z8',
+            '4S3e91Ym-8Pd6wc93-X98OM6z3',
+            'DQ1407Zn-Lg92v47l-5tf70Mo8',
+            'J31bFT04-iUg2n349-JGa8T435',
+            '59F70AHg-7yJ91iW5-306N8BzE',
+            'a81g6PC2-1oZ437We-9ci57E2A',
+            '01N6l5Gs-3br972Op-n76bqT32',
         ]
     )
     THREADS_COUNT: int = Field(validation_alias='THREADS_COUNT', default=1)
